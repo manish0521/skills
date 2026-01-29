@@ -1,4 +1,4 @@
-# Wondelai Skills
+# Wondel.ai Skills
 
 Agent skills for Claude Code and agentskills.io-compatible agents.
 
