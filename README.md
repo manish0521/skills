@@ -136,3 +136,22 @@ Lead generation system using interactive quiz/assessment funnels. Converts 30-50
 - *"Generate landing page copy for a 'Are You Ready to Scale?' quiz using the 3 Cs formula"*
 - *"Write dynamic results page content for Low/Medium/High scoring tiers"*
 - *"What follow-up email sequence should we send based on scorecard results?"*
+
+---
+
+## Copyright & Disclaimer
+
+The methodologies and frameworks referenced in these skills are the intellectual property of their respective authors and publishers. All copyrights belong to:
+
+- **Jobs to Be Done**: Clayton M. Christensen, Taddy Hall, Karen Dillon, David S. Duncan
+- **Making Websites Win**: Karl Blanks, Ben Jesson (Conversion Rate Experts)
+- **Refactoring UI**: Adam Wathan, Steve Schoger
+- **Human Interface Guidelines**: Apple Inc.
+- **Scorecard Marketing**: Daniel Priestley, Glen Carlson
+
+These skills were created without directly copying or reproducing content from the original books or materials. They are based on:
+- Publicly available information about the methodologies
+- General knowledge embedded in large language models
+- Common industry practices and terminology
+
+We encourage users to purchase and read the original books for the complete, authoritative treatment of each methodology. The skills in this repository are intended as practical aids, not replacements for the source materials.
