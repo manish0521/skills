@@ -16,6 +16,9 @@ npx skills add wondelai/skills/cro-methodology
 npx skills add wondelai/skills/refactoring-ui
 npx skills add wondelai/skills/ios-hig-design
 npx skills add wondelai/skills/scorecard-marketing
+npx skills add wondelai/skills/storybrand-messaging
+npx skills add wondelai/skills/hooked-ux
+npx skills add wondelai/skills/ux-heuristics
 ```
 
 ## Available Skills
@@ -27,6 +30,9 @@ npx skills add wondelai/skills/scorecard-marketing
 | refactoring-ui | Practical UI design system | [Adam Wathan](https://x.com/adamwathan) & [Steve Schoger](https://x.com/steveschoger)'s [*"Refactoring UI"*](https://www.refactoringui.com/) |
 | ios-hig-design | Native iOS app design guidelines | [Apple](https://x.com/Apple)'s [*Human Interface Guidelines*](https://developer.apple.com/design/human-interface-guidelines/) |
 | scorecard-marketing | Quiz/assessment funnel lead generation | [Daniel Priestley](https://x.com/DanielPriestley)'s [*"Scorecard Marketing"*](https://www.amazon.com/Scorecard-Marketing-four-step-playbook-getting/dp/1781337195?tag=wondelai00-20) |
+| storybrand-messaging | Clear brand messaging using story structure | [Donald Miller](https://x.com/donlonemiller)'s [*"Building a StoryBrand"*](https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/0718033329?tag=wondelai00-20) |
+| hooked-ux | Habit-forming product design | [Nir Eyal](https://x.com/naboreeyal)'s [*"Hooked"*](https://www.amazon.com/Hooked-How-Build-Habit-Forming-Products/dp/1591847788?tag=wondelai00-20) |
+| ux-heuristics | Usability evaluation and principles | [Steve Krug](https://x.com/skrug)'s [*"Don't Make Me Think"*](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515?tag=wondelai00-20) & [Jakob Nielsen](https://x.com/nngroup)'s [10 Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) |
 
 ---
 
@@ -149,6 +155,80 @@ Lead generation system using interactive quiz/assessment funnels. Converts 30-50
 
 ---
 
+### storybrand-messaging
+
+StoryBrand framework for clarifying your message so customers will listen. Positions your customer as the hero and your brand as the guide in a story structure that resonates.
+
+**About the author:** [Donald Miller](https://x.com/donlonemiller) is the CEO of StoryBrand, a company that has helped more than 10,000 businesses clarify their messaging. His StoryBrand Framework is used by brands ranging from small startups to Fortune 500 companies. Miller is a New York Times bestselling author and popular keynote speaker. [*"Building a StoryBrand"*](https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/0718033329?tag=wondelai00-20) has become one of the most influential marketing books of the past decade, teaching the 7-part framework that transforms confusing messaging into clear, compelling communication.
+
+**Use when you need to:**
+- Clarify your brand message so customers understand it instantly
+- Write website copy that converts visitors to customers
+- Create one-liners and elevator pitches
+- Build landing pages with narrative structure
+- Position your customer as the hero (not your brand)
+- Diagnose why your current messaging isn't resonating
+- Develop a brand script for consistent communication
+
+**Example prompts:**
+- *"Create a StoryBrand brand script for my SaaS project management tool. Use storybrand-messaging skill."*
+- *"Write a one-liner for our accounting firm. Use storybrand-messaging skill."*
+- *"Audit this homepage copy—is the customer positioned as the hero? Use storybrand-messaging skill."*
+- *"What's the internal problem our customers face beyond the external one? Use storybrand-messaging skill."*
+- *"Generate a 3-step plan section for our services page. Use storybrand-messaging skill."*
+
+---
+
+### hooked-ux
+
+Hook Model framework for building habit-forming products. The four-phase process (Trigger → Action → Variable Reward → Investment) that connects users to your product through successive cycles.
+
+**About the author:** [Nir Eyal](https://x.com/naboreeyal) is an author, lecturer, and investor who writes about the intersection of psychology, technology, and business. He previously taught at Stanford Graduate School of Business and has worked in the video gaming and advertising industries. [*"Hooked: How to Build Habit-Forming Products"*](https://www.amazon.com/Hooked-How-Build-Habit-Forming-Products/dp/1591847788?tag=wondelai00-20) has become essential reading for product designers and entrepreneurs, providing a practical framework for creating products that users return to repeatedly. His work has influenced product design at companies from startups to Fortune 500.
+
+**Use when you need to:**
+- Increase user engagement and retention
+- Design habit loops in your product
+- Audit why users aren't returning
+- Create effective triggers and notifications
+- Design variable reward systems
+- Increase investment and switching costs
+- Evaluate the ethics of your engagement tactics
+- Optimize onboarding for habit formation
+
+**Example prompts:**
+- *"What's the internal trigger for our meditation app? Use hooked-ux skill."*
+- *"Design a variable reward system for our fitness tracking app. Use hooked-ux skill."*
+- *"Audit our onboarding—does it complete the full Hook cycle? Use hooked-ux skill."*
+- *"How can we increase investment in our note-taking app to improve retention? Use hooked-ux skill."*
+- *"Are we in the Habit Zone? Analyze our usage frequency vs. perceived value. Use hooked-ux skill."*
+
+---
+
+### ux-heuristics
+
+Usability heuristics and evaluation principles combining Steve Krug's practical "Don't Make Me Think" approach with Jakob Nielsen's 10 heuristics for systematic interface evaluation.
+
+**About the sources:** [Steve Krug](https://x.com/skrug) is a usability consultant whose book [*"Don't Make Me Think"*](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515?tag=wondelai00-20) has been the go-to guide for web usability since 2000, selling over 600,000 copies. His common-sense approach has influenced a generation of designers. [Jakob Nielsen](https://x.com/nngroup), co-founder of Nielsen Norman Group, is often called "the king of usability." His [10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/), published in 1994, remain the most-used framework for evaluating interface usability worldwide.
+
+**Use when you need to:**
+- Audit a UI for usability problems
+- Identify why users are confused or frustrated
+- Simplify navigation and information architecture
+- Conduct heuristic evaluations
+- Prioritize UX fixes by severity
+- Review designs before development
+- Improve form usability
+- Validate that interfaces follow established UX principles
+
+**Example prompts:**
+- *"Run a heuristic evaluation on this checkout flow. Use ux-heuristics skill."*
+- *"Apply the Trunk Test to this homepage—can users answer the 6 key questions? Use ux-heuristics skill."*
+- *"Rate the severity of these usability issues from 0-4. Use ux-heuristics skill."*
+- *"What UX heuristics is this error message violating? Use ux-heuristics skill."*
+- *"Audit this form for usability issues and suggest fixes. Use ux-heuristics skill."*
+
+---
+
 ## Copyright & Disclaimer
 
 The methodologies and frameworks referenced in these skills are the intellectual property of their respective authors and publishers. All copyrights belong to:
@@ -158,6 +238,10 @@ The methodologies and frameworks referenced in these skills are the intellectual
 - **Refactoring UI**: Adam Wathan, Steve Schoger
 - **Human Interface Guidelines**: Apple Inc.
 - **Scorecard Marketing**: Daniel Priestley, Glen Carlson
+- **Building a StoryBrand**: Donald Miller
+- **Hooked**: Nir Eyal
+- **Don't Make Me Think**: Steve Krug
+- **10 Usability Heuristics**: Jakob Nielsen (Nielsen Norman Group)
 
 These skills were created without directly copying or reproducing content from the original books or materials. They are based on:
 - Publicly available information about the methodologies
