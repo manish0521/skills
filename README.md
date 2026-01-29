@@ -46,10 +46,10 @@ Strategic framework for discovering and designing product innovations. Customers
 - Reframe product metrics around customer progress
 
 **Example prompts:**
-- *"Help me write interview questions to discover the job our customers hire our app for"*
-- *"Our signup-to-active rate is 20%. Use JTBD to diagnose why users aren't completing the Little Hire"*
-- *"What jobs might compete with our meditation app that aren't other meditation apps?"*
-- *"Write a job statement for someone buying a $3000 online course"*
+- *"Help me write interview questions to discover the job our customers hire our app for. Use jobs-to-be-done skill."*
+- *"Our signup-to-active rate is 20%. Diagnose why users aren't completing the Little Hire. Use jobs-to-be-done skill."*
+- *"What jobs might compete with our meditation app that aren't other meditation apps? Use jobs-to-be-done skill."*
+- *"Write a job statement for someone buying a $3000 online course. Use jobs-to-be-done skill."*
 
 ---
 
@@ -67,10 +67,10 @@ Scientific, customer-centric approach to conversion rate optimization. Rejects "
 - Create an objection/counter-objection framework
 
 **Example prompts:**
-- *"Audit this landing page and list the top 5 objections a visitor might have"*
-- *"Create an O/CO (objection/counter-objection) table for our SaaS pricing page"*
-- *"What persuasion assets are we missing on this page? (testimonials, guarantees, credentials)"*
-- *"Rewrite this headline to address the 'is this worth my time?' objection"*
+- *"Audit this landing page and list the top 5 objections a visitor might have. Use cro-methodology skill."*
+- *"Create an O/CO (objection/counter-objection) table for our SaaS pricing page. Use cro-methodology skill."*
+- *"What persuasion assets are we missing on this page? (testimonials, guarantees, credentials). Use cro-methodology skill."*
+- *"Rewrite this headline to address the 'is this worth my time?' objection. Use cro-methodology skill."*
 
 ---
 
@@ -88,11 +88,11 @@ Practical, opinionated UI design system for developers. Design in grayscale firs
 - Style components in Tailwind CSS
 
 **Example prompts:**
-- *"This dashboard looks cluttered. Apply Refactoring UI principles to fix the hierarchy"*
-- *"Generate a color palette with 9 shades for a warm, friendly SaaS app"*
-- *"Review this card component and suggest spacing/typography improvements"*
-- *"The text is hard to read. What's wrong with the contrast and line height?"*
-- *"Convert this design to Tailwind classes following Refactoring UI spacing scale"*
+- *"This dashboard looks cluttered. Fix the hierarchy. Use refactoring-ui skill."*
+- *"Generate a color palette with 9 shades for a warm, friendly SaaS app. Use refactoring-ui skill."*
+- *"Review this card component and suggest spacing/typography improvements. Use refactoring-ui skill."*
+- *"The text is hard to read. What's wrong with the contrast and line height? Use refactoring-ui skill."*
+- *"Convert this design to Tailwind classes. Use refactoring-ui skill."*
 
 ---
 
@@ -110,11 +110,11 @@ Design native iOS apps that feel intuitive and aligned with Apple's platform con
 - Choose correct touch target sizes and spacing
 
 **Example prompts:**
-- *"Review this SwiftUI view and check if it follows HIG guidelines"*
-- *"What's the correct navigation pattern for a settings screen with sub-pages?"*
-- *"Add proper accessibility labels to these interactive elements"*
-- *"This design uses a hamburger menu. What's the iOS-native alternative?"*
-- *"Generate the correct icon sizes for App Store submission"*
+- *"Review this SwiftUI view and check if it follows HIG guidelines. Use ios-hig-design skill."*
+- *"What's the correct navigation pattern for a settings screen with sub-pages? Use ios-hig-design skill."*
+- *"Add proper accessibility labels to these interactive elements. Use ios-hig-design skill."*
+- *"This design uses a hamburger menu. What's the iOS-native alternative? Use ios-hig-design skill."*
+- *"Generate the correct icon sizes for App Store submission. Use ios-hig-design skill."*
 
 ---
 
@@ -131,11 +131,11 @@ Lead generation system using interactive quiz/assessment funnels. Converts 30-50
 - Generate scorecard concepts for any industry
 
 **Example prompts:**
-- *"Create a scorecard concept for a B2B accounting software company"*
-- *"Write 15 assessment questions for a 'Marketing Maturity' scorecard with 5 categories"*
-- *"Generate landing page copy for a 'Are You Ready to Scale?' quiz using the 3 Cs formula"*
-- *"Write dynamic results page content for Low/Medium/High scoring tiers"*
-- *"What follow-up email sequence should we send based on scorecard results?"*
+- *"Create a scorecard concept for a B2B accounting software company. Use scorecard-marketing skill."*
+- *"Write 15 assessment questions for a 'Marketing Maturity' scorecard with 5 categories. Use scorecard-marketing skill."*
+- *"Generate landing page copy for a 'Are You Ready to Scale?' quiz using the 3 Cs formula. Use scorecard-marketing skill."*
+- *"Write dynamic results page content for Low/Medium/High scoring tiers. Use scorecard-marketing skill."*
+- *"What follow-up email sequence should we send based on scorecard results? Use scorecard-marketing skill."*
 
 ---
 
