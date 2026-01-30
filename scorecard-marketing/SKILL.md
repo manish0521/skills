@@ -156,6 +156,41 @@ Start the Quiz →
 (Takes less than 3 minutes)
 ```
 
+## Scorecard Naming Strategy
+
+**Effective names combine:**
+- Topic clarity (what it measures)
+- Outcome promise (why take it)
+- Brevity (memorable)
+
+**Formulas:**
+- "The [Topic] Scorecard"
+- "[Outcome] Readiness Assessment"
+- "What's Your [Topic] Score?"
+- "The [Adjective] [Topic] Quiz"
+
+**Examples:**
+- "The Business Growth Scorecard"
+- "Leadership Readiness Assessment"
+- "What's Your Marketing Score?"
+- "The Complete Wellness Quiz"
+
+## Multi-Step Assessment Funnels
+
+For complex sales or high-value clients, consider multi-stage assessments:
+
+| Stage | Purpose | Questions | Outcome |
+|-------|---------|-----------|---------|
+| Stage 1 | Initial engagement | 8-15 quick questions | Basic score + nurture sequence |
+| Stage 2 | Qualification | 15-25 detailed questions | Detailed report + sales eligibility |
+| Stage 3 | Client onboarding | 30-50 comprehensive | Baseline measurement + roadmap |
+
+**When to use multi-step:**
+- High-ticket services
+- Complex solutions requiring education
+- Long sales cycles
+- Ongoing client relationships
+
 ## Scorecard Ideas by Industry
 
 **See:** `references/industry-examples.md` for 50+ specific scorecard concepts across industries.
@@ -187,6 +222,13 @@ Start the Quiz →
 4. **Personalization:** 83% of consumers share data for personalized experience
 5. **Gamification:** Primal drive to score, rank, and improve
 6. **Commitment:** They invested time, increasing likelihood of follow-through
+
+See [references/psychology.md](references/psychology.md) for deeper psychological foundations.
+
+## Additional Reference Files
+
+- [analytics-optimization.md](references/analytics-optimization.md): Key metrics, A/B testing elements, funnel analysis, CRM integration, lead scoring
+- [technical-implementation.md](references/technical-implementation.md): Platform comparison, conditional logic, scoring patterns, PDF generation, integrations
 
 ## Further Reading
 

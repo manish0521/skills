@@ -12,6 +12,63 @@ The reward phase is what keeps users coming back. Predictable rewards lose power
 
 ---
 
+## Variable Reinforcement Schedules
+
+B.F. Skinner identified four primary schedules that predict how behavior responds to rewards:
+
+### Fixed Ratio
+
+Reward after a set number of actions (e.g., every 5th action).
+
+**Behavior pattern:** Steady work, pause after reward
+**Example:** Loyalty cards (buy 10, get 1 free)
+**Product use:** Completion bonuses, milestone rewards
+
+### Variable Ratio
+
+Reward after random number of actions.
+
+**Behavior pattern:** High, steady response rate—most powerful for sustained behavior
+**Example:** Slot machines, social media likes
+**Product use:** Feed refresh, message notifications, loot boxes
+
+### Fixed Interval
+
+Reward after a set time period.
+
+**Behavior pattern:** Slow start, activity increases near reward time
+**Example:** Daily login bonuses, weekly digest emails
+**Product use:** Scheduled content drops, time-gated rewards
+
+### Variable Interval
+
+Reward at random times regardless of actions.
+
+**Behavior pattern:** Steady, moderate response rate
+**Example:** Email inbox (messages arrive unpredictably)
+**Product use:** Push notifications, "new content" indicators
+
+### Schedule Selection Guide
+
+| Goal | Best Schedule |
+|------|---------------|
+| Sustained engagement | Variable ratio |
+| Routine/habit building | Fixed interval |
+| Completion motivation | Fixed ratio |
+| Checking behavior | Variable interval |
+
+### Combining Schedules
+
+Most successful products combine multiple schedules:
+
+**Instagram example:**
+- Variable ratio: Likes (unknown timing/quantity)
+- Variable interval: Feed updates
+- Fixed ratio: Post completion (edit, filter, share)
+- Fixed interval: Stories expiration (24 hours)
+
+---
+
 ## Three Types of Variable Rewards
 
 ### 1. Rewards of the Tribe

@@ -111,3 +111,127 @@ VStack(spacing: 16) {
     // Standard component spacing
 }
 ```
+
+---
+
+## Menu Patterns
+
+### Context Menus
+
+Long-press to reveal contextual actions:
+
+```swift
+Text("Item")
+    .contextMenu {
+        Button("Edit", action: edit)
+        Button("Share", action: share)
+        Divider()
+        Button("Delete", role: .destructive, action: delete)
+    }
+```
+
+**Guidelines:**
+- Group related actions
+- Use dividers between groups
+- Destructive actions at bottom, marked red
+- Include icons where helpful
+
+### Pull-Down Menus
+
+Tap to reveal options without navigation:
+
+```swift
+Menu("Options") {
+    Button("Sort by Name", action: sortByName)
+    Button("Sort by Date", action: sortByDate)
+    Divider()
+    Menu("Filter") {
+        Button("Active", action: filterActive)
+        Button("Completed", action: filterCompleted)
+    }
+}
+```
+
+**When to use:**
+- 3-6 options that don't need full screen
+- Actions that don't require additional input
+- Sorting, filtering, view options
+
+### Action Sheets
+
+For important decisions requiring attention:
+
+```swift
+.confirmationDialog("Choose Action", isPresented: $showingSheet) {
+    Button("Camera") { }
+    Button("Photo Library") { }
+    Button("Cancel", role: .cancel) { }
+}
+```
+
+**Guidelines:**
+- Title is optional (use for clarity)
+- Limit to 5-6 actions
+- Cancel is always last
+- Destructive actions in red
+
+---
+
+## Confirmation Dialogs
+
+### When to Confirm
+
+| Action | Needs Confirmation? |
+|--------|---------------------|
+| Delete single item | Sometimes (if permanent) |
+| Delete multiple items | Yes |
+| Discard unsaved changes | Yes |
+| Log out | Usually not |
+| Send message | No |
+| Purchase | Yes (final step) |
+
+### Alert Structure
+
+```swift
+.alert("Delete Item?", isPresented: $showingAlert) {
+    Button("Delete", role: .destructive, action: deleteItem)
+    Button("Cancel", role: .cancel) { }
+} message: {
+    Text("This action cannot be undone.")
+}
+```
+
+**Guidelines:**
+- Title: Clear action question
+- Message: Explain consequences (brief)
+- Buttons: Specific verbs, not just "OK"
+- Destructive button on left (less expected position)
+- Cancel on right (easy to tap)
+
+### Undo vs. Confirm
+
+**Prefer undo when:**
+- Action is recoverable
+- Speed matters
+- Confirmations would be annoying
+
+**Require confirmation when:**
+- Action is irreversible
+- Data/money loss possible
+- Action affects others
+
+```swift
+// Undo pattern
+.toolbar {
+    Button("Undo") { undoManager.undo() }
+}
+
+// Swipe to delete with undo toast
+.swipeActions(edge: .trailing) {
+    Button("Delete", role: .destructive) {
+        withAnimation {
+            deleteWithUndo(item)
+        }
+    }
+}
+```

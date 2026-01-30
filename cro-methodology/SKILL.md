@@ -57,12 +57,14 @@ Every company has overlooked proof elements:
 Create a "wish list" of assets to acquire.
 
 ### 6. Create Experimental Strategy
-Prioritize ideas using three criteria:
-1. **Impact potential**: Could this double conversion rate?
-2. **Ease of implementation**: Quick wins first
-3. **Proven success**: Has this worked before?
+Prioritize ideas using the ICE framework:
+1. **Impact**: Could this double conversion rate? (1-10)
+2. **Confidence**: How sure are we this will work? (1-10)
+3. **Ease**: How easy to implement? (1-10)
 
 **Critical**: Make BOLD changes, not "meek tweaks." Small changes rarely reach statistical significance and waste resources.
+
+See [testing-methodology.md](references/testing-methodology.md) for detailed ICE scoring and prioritization.
 
 ### 7. Design Challengers
 Create wireframes based on research insights (not guesswork). Focus on:
@@ -75,10 +77,14 @@ See [COPYWRITING.md](references/COPYWRITING.md) for persuasion techniques.
 
 ### 8. Run Experiments
 Use A/B testing platforms (Optimizely, VWO, etc.). For each test:
-- Document hypothesis
-- Define success metrics
-- Wait for statistical significance
+- Document hypothesis: "If we [change X], then [metric Y] will improve because [reason]"
+- Define primary and guardrail metrics
+- Calculate required sample size BEFORE starting
+- Wait for statistical significance (95% confidence minimum)
+- Run for at least one full business cycle (1-2 weeks)
 - Promote winners to new control
+
+See [testing-methodology.md](references/testing-methodology.md) for statistical rigor and A/B vs. multivariate guidance.
 
 ### 9. Scale Wins
 Apply insights across:
@@ -104,8 +110,9 @@ When optimizing any page:
 
 - **O/CO Table**: Objection/Counter-Objection mapping. See [OBJECTIONS.md](references/OBJECTIONS.md)
 - **Persuasion Assets**: Proof elements inventory. See [PERSUASION.md](references/PERSUASION.md)
-- **Funnel Analysis**: Blocked arteries & missing links
-- **Bold vs. Meek**: Test big changes, not button colors
+- **Funnel Analysis**: Blocked arteries & missing links. See [funnel-analysis.md](references/funnel-analysis.md)
+- **Bold vs. Meek**: Test big changes, not button colors. See [testing-methodology.md](references/testing-methodology.md)
+- **ICE Prioritization**: Score ideas by Impact, Confidence, Ease
 
 ## Anti-Patterns (What NOT to Do)
 
@@ -123,6 +130,8 @@ When optimizing any page:
 - [COPYWRITING.md](references/COPYWRITING.md): Headlines, proof elements, persuasive writing
 - [PERSUASION.md](references/PERSUASION.md): Persuasion assets checklist, psychological triggers
 - [RESEARCH.md](references/RESEARCH.md): Tools, survey questions, data analysis
+- [testing-methodology.md](references/testing-methodology.md): A/B testing, statistical significance, ICE prioritization, multivariate testing
+- [funnel-analysis.md](references/funnel-analysis.md): Blocked arteries, missing links, industry funnels, cross-sell mapping
 
 ## Further Reading
 

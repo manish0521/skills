@@ -291,3 +291,182 @@ xl:  1280px (desktops)
 3. Full-width inputs on mobile, constrained on desktop
 4. Larger touch targets on mobile (44px minimum)
 5. Hide secondary navigation in hamburger on mobile
+
+---
+
+## Modal and Overlay Patterns
+
+### Modal Sizing
+
+| Content Type | Width | Height |
+|--------------|-------|--------|
+| Confirmation dialog | 400-500px | Auto (minimal) |
+| Form modal | 500-600px | Auto |
+| Content modal | 600-800px | 70-80vh max |
+| Full-screen modal | 100vw | 100vh |
+
+### Modal Structure
+
+```
+┌─────────────────────────────────────────────┐
+│  Title                              ✕ Close │
+├─────────────────────────────────────────────┤
+│                                             │
+│  Modal content here                         │
+│                                             │
+├─────────────────────────────────────────────┤
+│                     Cancel    Primary Action│
+└─────────────────────────────────────────────┘
+```
+
+### Backdrop
+
+```css
+.backdrop {
+  background: rgba(0, 0, 0, 0.5);
+  /* Or with blur */
+  backdrop-filter: blur(4px);
+}
+```
+
+### Modal Transitions
+
+```css
+/* Fade + Scale */
+.modal {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 200ms ease-out, transform 200ms ease-out;
+}
+.modal.open {
+  opacity: 1;
+  transform: scale(1);
+}
+```
+
+---
+
+## Dropdown and Menu Design
+
+### Dropdown Positioning
+
+- Default: Below trigger, left-aligned
+- Flip: Above if no space below
+- Constrain to viewport
+
+```css
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 4px;
+}
+```
+
+### Menu Styling
+
+```css
+.menu {
+  min-width: 180px;
+  max-height: 300px;
+  overflow-y: auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.menu-item {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background: #f3f4f6;
+}
+
+.menu-divider {
+  height: 1px;
+  background: #e5e7eb;
+  margin: 4px 0;
+}
+```
+
+### Menu Item Types
+
+| Type | Visual |
+|------|--------|
+| Standard | Text label |
+| With icon | Icon + Label |
+| With shortcut | Label + Shortcut |
+| With description | Label + Description |
+| Destructive | Red text |
+| Disabled | Grayed out |
+
+---
+
+## Navigation Patterns
+
+### Top Navigation
+
+```
+┌─────────────────────────────────────────────────┐
+│  Logo    Nav Item   Nav Item   Nav Item    CTA  │
+└─────────────────────────────────────────────────┘
+```
+
+- Sticky on scroll (optional)
+- Collapse to hamburger on mobile
+- Clear active state
+
+### Side Navigation
+
+```
+┌──────────────┬──────────────────────────────────┐
+│  Logo        │                                  │
+│              │                                  │
+│  Dashboard   │         Main Content             │
+│  Projects    │                                  │
+│  Settings    │                                  │
+│              │                                  │
+│  ─────────   │                                  │
+│  Account     │                                  │
+│  Logout      │                                  │
+└──────────────┴──────────────────────────────────┘
+```
+
+- Collapsible to icons on desktop
+- Full overlay on mobile
+- Group related items
+
+### Breadcrumbs
+
+```
+Home  >  Category  >  Subcategory  >  Current Page
+```
+
+- Clickable except current page
+- Truncate middle items if too long
+- Show on detail/nested pages
+
+### Tabs
+
+```css
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.tab {
+  padding: 12px 16px;
+  border-bottom: 2px solid transparent;
+}
+
+.tab.active {
+  border-bottom-color: #3b82f6;
+  color: #3b82f6;
+}
+```
+
+- Underline or pill style
+- Horizontal scroll on mobile if many tabs
+- Consider vertical tabs for settings

@@ -97,6 +97,26 @@ See: [references/nielsen-heuristics.md](references/nielsen-heuristics.md) for de
 | 9 | Help users recognize, diagnose, recover from errors | Plain-language errors with solutions |
 | 10 | Help and documentation | Searchable, task-focused, concise |
 
+### Heuristic Conflicts
+
+Heuristics sometimes contradict each other. When they do:
+- **Simplicity vs. Flexibility**: Use progressive disclosure
+- **Consistency vs. Context**: Consistent patterns, contextual prominence
+- **Efficiency vs. Error Prevention**: Prefer undo over confirmation dialogs
+- **Discoverability vs. Minimalism**: Primary actions visible, secondary hidden
+
+See [heuristic-conflicts.md](references/heuristic-conflicts.md) for resolution frameworks.
+
+### Dark Patterns Recognition
+
+Dark patterns violate heuristics deliberately to manipulate users:
+- Forced continuity (hard to cancel)
+- Roach motel (easy in, hard out)
+- Confirmshaming (guilt-based options)
+- Hidden costs (surprise fees at checkout)
+
+See [dark-patterns.md](references/dark-patterns.md) for complete taxonomy and ethical alternatives.
+
 ---
 
 ## Severity Rating Scale
@@ -219,6 +239,16 @@ Watch 3-5 users attempt key tasks:
 | "It's industry standard" | Bad standards are still bad. |
 
 ---
+
+## Reference Files
+
+- [krug-principles.md](references/krug-principles.md): Full Krug methodology, scanning behavior, navigation clarity
+- [nielsen-heuristics.md](references/nielsen-heuristics.md): Detailed heuristic explanations with examples
+- [audit-template.md](references/audit-template.md): Structured heuristic evaluation template
+- [dark-patterns.md](references/dark-patterns.md): Categories, examples, ethical alternatives, regulations
+- [wcag-checklist.md](references/wcag-checklist.md): Complete WCAG 2.1 AA checklist, testing tools
+- [cultural-ux.md](references/cultural-ux.md): RTL, color meanings, form conventions, localization
+- [heuristic-conflicts.md](references/heuristic-conflicts.md): When heuristics contradict, resolution frameworks
 
 ## Further Reading
 

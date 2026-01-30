@@ -82,3 +82,77 @@ Define what "job done" means and measure:
 - % of sessions where job was completed
 - Time to first success (Time to Value)
 - Repeatability of "hiring" (hire frequency)
+
+---
+
+## Post-Launch Iteration
+
+### Continuous Job Discovery
+
+After launch, keep learning:
+
+**Usage data signals:**
+- Features used ≠ Features valued (may use out of necessity)
+- Time spent ≠ Job done (frustration can increase time)
+- Feature requests often describe solutions, not jobs
+
+**Ongoing research:**
+- Interview new customers within 2 weeks of purchase
+- Interview churned customers within 1 week of leaving
+- Observe actual usage (session recordings, support tickets)
+- Track "aha moments" that predict retention
+
+### Iteration Framework
+
+| Signal | What It Means | Action |
+|--------|---------------|--------|
+| High acquisition, low retention | Win Big Hire, lose Little Hire | Investigate moment of use |
+| Feature used but low satisfaction | Functional works, emotional doesn't | Research emotional dimension |
+| Unexpected use patterns | Hidden jobs emerging | Interview these users |
+| Power users vs. casual users | Different jobs being done | May need segmentation |
+
+---
+
+## Churn Analysis Through JTBD Lens
+
+### Why "Firing" Happens
+
+Customers fire products when:
+1. **Job changed** - Circumstances evolved (company grew, life changed)
+2. **Better "employee" appeared** - Competitor does job better
+3. **Job wasn't being done** - Product never delivered on promise
+4. **Friction accumulated** - Too hard to use, not worth the effort
+5. **Priorities shifted** - Other jobs became more important
+
+### Churn Interview Framework
+
+**Timing:** Within 1 week of cancellation (memory fresh)
+
+**Questions:**
+
+| Phase | Questions |
+|-------|-----------|
+| Original hiring | "When you first signed up, what were you hoping to accomplish?" |
+| Experience | "How well did we help you with that?" |
+| The turn | "When did you start thinking about leaving?" |
+| Alternatives | "What will you do instead? How did you find it?" |
+| The switch | "What ultimately convinced you to leave?" |
+| Retrospective | "If we could change one thing, what would make you stay?" |
+
+### Churn Patterns to Watch
+
+| Pattern | Probable Cause | Investigation |
+|---------|----------------|---------------|
+| Early churn (<30 days) | Never got job done | Onboarding + activation issues |
+| Churn after initial success | Job completed, no ongoing need | Is this a one-time job? |
+| Churn after competitor mention | Better employee exists | Competitive analysis |
+| Churn with "too complicated" | Friction > value | UX and simplification |
+| Churn without replacement | Job deprioritized | Were we targeting right customers? |
+
+### Acting on Churn Insights
+
+**If job changed:** Consider segments, expansion products, or accepting churn as natural
+**If competitor wins:** Investigate which dimension they're serving better
+**If job wasn't done:** Product or onboarding needs improvement
+**If friction accumulated:** UX improvements, training, simplification
+**If priorities shifted:** May be targeting wrong customer profile

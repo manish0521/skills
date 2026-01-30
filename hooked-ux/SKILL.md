@@ -160,6 +160,24 @@ Framework for evaluating the ethics of habit-forming products.
 2. Does it genuinely help users achieve their goals?
 3. Am I exploiting vulnerabilities or serving needs?
 
+### When NOT to Use the Hook Model
+
+The Hook Model is inappropriate when:
+- Your product doesn't genuinely improve lives
+- You're targeting vulnerable populations (children, addiction-prone users)
+- Business model depends on user regret
+- Engagement conflicts with user wellbeing
+
+See [ethical-boundaries.md](references/ethical-boundaries.md) for comprehensive ethics guidance.
+
+### Regulatory Context
+
+Be aware of emerging regulations around:
+- **Children's apps:** COPPA, GDPR-K restrictions
+- **Dark patterns:** FTC enforcement increasing
+- **Notification practices:** Some jurisdictions regulating "addictive" features
+- **Loot boxes:** Gaming regulations expanding
+
 ## Onboarding Audit Checklist
 
 Optimizing onboarding for habit formation:
@@ -209,6 +227,16 @@ Your habit loop is broken if:
 - Users don't increase usage over time (no investment)
 - High churn despite initial engagement (wrong internal trigger)
 - Users describe product as "useful but forgettable"
+
+## Reference Files
+
+- [triggers.md](references/triggers.md): External and internal trigger design, emotion mapping
+- [rewards.md](references/rewards.md): Variable reward types, reinforcement schedules, reward timing
+- [habit-testing.md](references/habit-testing.md): Testing methodology, habit zone identification
+- [case-studies.md](references/case-studies.md): Instagram, Slack, Duolingo, Pinterest, and failed products analysis
+- [ethical-boundaries.md](references/ethical-boundaries.md): Dark patterns vs. ethical engagement, protecting vulnerable users
+- [neuroscience-foundations.md](references/neuroscience-foundations.md): Dopamine, variable reinforcement schedules, habit loop neuroscience
+- [product-applications.md](references/product-applications.md): B2B SaaS, e-commerce, health apps, productivity tools patterns
 
 ## Further Reading
 

@@ -19,6 +19,12 @@ Every compelling story follows the same pattern. Use this structure for all mess
 
 The customer wants something. Be specific about what they want.
 
+**Audience Segmentation:**
+Different segments may have different primary desires. Create separate messaging for:
+- Different roles (CEO vs. Manager vs. Individual contributor)
+- Different stages (Startup vs. Scale-up vs. Enterprise)
+- Different pain intensity (Aware vs. Urgent)
+
 **Rules:**
 - Open a story gap (desire creates tension)
 - Focus on ONE desire per message (not a list)
@@ -151,9 +157,25 @@ A single sentence that clearly explains what you do. Use it everywhere.
 
 **Test:** Can someone repeat it after hearing it once?
 
+## Tone and Voice Guidelines
+
+Your brand voice should be consistent across all channels while adapting to context:
+
+**Guide qualities to convey:**
+- Empathy: "We understand..."
+- Authority: "In our experience..."
+- Confidence: "Here's what works..."
+- Helpfulness: "Let us show you..."
+
+**Avoid:**
+- Hero language: "We're the best at..."
+- Jargon: Use customer's words
+- Condescension: Respect their intelligence
+- Weakness: Be confident, not tentative
+
 ## Website Wireframe
 
-See: [references/website-wireframe.md](references/website-wireframe.md) for page-by-page structure.
+See: [references/website-wireframe.md](references/website-wireframe.md) for page-by-page structure, including interior page templates (product, about, service pages).
 
 ## Brand Script Template
 
@@ -162,6 +184,12 @@ See: [references/brand-script.md](references/brand-script.md) for complete works
 ## One-Liner Examples & Formula
 
 See: [references/one-liners.md](references/one-liners.md) for industry examples and variations.
+
+## Additional Reference Files
+
+- [email-sequences.md](references/email-sequences.md): Nurture sequence structure, welcome sequences, templates, subject line formulas
+- [sales-conversations.md](references/sales-conversations.md): Discovery questions, objection handling, sales scripts
+- [multi-channel-consistency.md](references/multi-channel-consistency.md): Social media adaptation, video scripts, podcast, PR, brand voice guidelines
 
 ## Common Messaging Mistakes
 

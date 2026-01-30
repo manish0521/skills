@@ -98,13 +98,20 @@ Standard Spacing:     8 / 16 / 24pt
 
 ## Detailed Reference Files
 
+**Core Design:**
 - [references/typography.md](references/typography.md) — Text styles, font sizes, Dark Mode typography
-- [references/navigation.md](references/navigation.md) — Tab bar, navigation bar, modals, back navigation
-- [references/components.md](references/components.md) — Buttons, lists, input controls, touch targets
+- [references/navigation.md](references/navigation.md) — Tab bar, navigation bar, modals, search patterns, split views
+- [references/components.md](references/components.md) — Buttons, lists, input controls, menus, confirmation dialogs
 - [references/colors-depth.md](references/colors-depth.md) — Semantic colors, Dark Mode, contrast ratios
 - [references/gestures.md](references/gestures.md) — Standard gestures, haptics, animations
 - [references/accessibility.md](references/accessibility.md) — VoiceOver, Dynamic Type, checklist
 - [references/app-icons.md](references/app-icons.md) — Icon sizes, shape, guidelines
+
+**Input & System Integration:**
+- [references/keyboard-input.md](references/keyboard-input.md) — Keyboard types, input accessory views, hardware keyboard support
+- [references/privacy-permissions.md](references/privacy-permissions.md) — Permission request timing, pre-permission screens, handling denial
+- [references/widgets-extensions.md](references/widgets-extensions.md) — Widget sizes, App Clips design, Live Activities
+- [references/system-integration.md](references/system-integration.md) — Siri, Shortcuts, Handoff, drag-drop, universal links
 
 ---
 

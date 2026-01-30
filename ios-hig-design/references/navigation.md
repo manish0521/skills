@@ -43,3 +43,108 @@ Use modals for focused tasks that shouldn't interrupt context completely.
 - Slides up from bottom
 - Previous screen visible (recessed) in background
 - Dismiss via: close button, swipe down, or completing task
+
+---
+
+## Search UI Patterns
+
+### Search Bar Placement
+
+| Context | Placement |
+|---------|-----------|
+| Primary search (core feature) | Navigation bar, persistent |
+| Secondary search | Below nav, hidden on scroll |
+| List filtering | Above list, inline |
+
+### Search Behavior
+
+**States:**
+1. **Inactive:** Placeholder text, magnifying glass icon
+2. **Active/Focused:** Keyboard appears, cancel button shows
+3. **Typing:** Results update (instant or debounced)
+4. **Results:** Displayed in list below
+
+**SwiftUI implementation:**
+```swift
+.searchable(
+    text: $searchText,
+    placement: .navigationBarDrawer(displayMode: .always),
+    prompt: "Search items"
+)
+```
+
+### Search Suggestions
+
+- Recent searches
+- Trending/popular searches
+- Autocomplete suggestions
+- Scoped suggestions (filter by category)
+
+```swift
+.searchable(text: $searchText) {
+    ForEach(suggestions) { suggestion in
+        Text(suggestion.name)
+            .searchCompletion(suggestion.name)
+    }
+}
+```
+
+---
+
+## Split View Navigation (iPad)
+
+### Two-Column Layout
+
+```
+┌──────────────────┬────────────────────────────────┐
+│                  │                                │
+│  Primary List    │     Detail View                │
+│  (Sidebar)       │                                │
+│                  │                                │
+│  Item 1          │     Selected item details      │
+│  Item 2 ←        │                                │
+│  Item 3          │                                │
+│                  │                                │
+└──────────────────┴────────────────────────────────┘
+```
+
+**Behavior:**
+- Primary column: 320pt default width
+- Detail column: Fills remaining space
+- Collapse to single column on compact width
+
+### Three-Column Layout
+
+```
+┌────────────┬────────────┬──────────────────────────┐
+│  Sidebar   │ Content    │    Detail                │
+│            │            │                          │
+│  Section 1 │  Item A    │    Item details here     │
+│  Section 2 │  Item B ←  │                          │
+│  Section 3 │  Item C    │                          │
+└────────────┴────────────┴──────────────────────────┘
+```
+
+**SwiftUI:**
+```swift
+NavigationSplitView {
+    Sidebar()
+} content: {
+    ContentList()
+} detail: {
+    DetailView()
+}
+```
+
+### Responsive Behavior
+
+| Width | Behavior |
+|-------|----------|
+| Compact (iPhone) | Stack navigation |
+| Regular (iPad portrait) | Two-column or overlay |
+| Regular (iPad landscape) | Three-column available |
+
+**Best practices:**
+- Show placeholder in detail when nothing selected
+- Remember selection across rotation
+- Support column resizing (where appropriate)

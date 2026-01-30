@@ -269,3 +269,185 @@ Before launching, verify your homepage has:
 - [ ] Transitional CTA (lead magnet)
 - [ ] Direct CTA repeated 3+ times
 - [ ] Mobile responsive layout
+
+---
+
+## Interior Page Templates
+
+### Product/Service Page
+
+```
+┌─────────────────────────────────────────────────────┐
+│  BREADCRUMB: Home > Services > This Service        │
+├─────────────────────────────────────────────────────┤
+│                                                     │
+│  [Service Name - What outcome it delivers]         │
+│                                                     │
+│  [Hero image or video]     [Key benefits list]     │
+│                            [Direct CTA]             │
+│                                                     │
+├─────────────────────────────────────────────────────┤
+│  WHO THIS IS FOR                                   │
+│                                                     │
+│  "This service is perfect for [customer type]      │
+│   who struggle with [problem]..."                  │
+│                                                     │
+├─────────────────────────────────────────────────────┤
+│  WHAT'S INCLUDED                                   │
+│                                                     │
+│  ✓ Feature/deliverable 1                          │
+│  ✓ Feature/deliverable 2                          │
+│  ✓ Feature/deliverable 3                          │
+│                                                     │
+├─────────────────────────────────────────────────────┤
+│  HOW IT WORKS (The Plan)                          │
+│                                                     │
+│  ① Step 1  →  ② Step 2  →  ③ Step 3              │
+│                                                     │
+├─────────────────────────────────────────────────────┤
+│  TESTIMONIALS (specific to this service)           │
+│                                                     │
+├─────────────────────────────────────────────────────┤
+│  PRICING / PACKAGES                                │
+│                                                     │
+│  [Package options with clear differentiation]      │
+│                                                     │
+├─────────────────────────────────────────────────────┤
+│  FAQ                                               │
+│                                                     │
+│  [Common questions about this service]             │
+│                                                     │
+├─────────────────────────────────────────────────────┤
+│  FINAL CTA                                         │
+│                                                     │
+│  Ready to [outcome]?  [CTA Button]                 │
+│                                                     │
+└─────────────────────────────────────────────────────┘
+```
+
+### About Page
+
+```
+┌─────────────────────────────────────────────────────┐
+│  ABOUT HEADLINE                                    │
+│                                                     │
+│  Focus on customer transformation, not your story  │
+│  "We help [customers] [achieve outcome]"           │
+│                                                     │
+├─────────────────────────────────────────────────────┤
+│  OUR MISSION                                       │
+│                                                     │
+│  [Philosophical problem you're solving]            │
+│  "We believe [customers] shouldn't have to..."     │
+│                                                     │
+├─────────────────────────────────────────────────────┤
+│  THE TEAM (as guides)                              │
+│                                                     │
+│  [Photo]  [Photo]  [Photo]                         │
+│  [Brief bios focused on how they help customers]   │
+│                                                     │
+├─────────────────────────────────────────────────────┤
+│  CREDENTIALS (Authority)                           │
+│                                                     │
+│  [Years] years experience                          │
+│  [Number] customers helped                         │
+│  [Logos / awards / media mentions]                 │
+│                                                     │
+├─────────────────────────────────────────────────────┤
+│  CTA                                               │
+│                                                     │
+│  Ready to work together?  [Schedule Call]          │
+│                                                     │
+└─────────────────────────────────────────────────────┘
+```
+
+### Case Study Page
+
+```
+┌─────────────────────────────────────────────────────┐
+│  CASE STUDY: [Client Name]                         │
+│                                                     │
+│  [Result headline: "How [Client] achieved [result]"]│
+│                                                     │
+├─────────────────────────────────────────────────────┤
+│  THE CHALLENGE (Problem)                           │
+│                                                     │
+│  [Client's situation before - external problem]    │
+│  [How it was affecting them - internal problem]    │
+│                                                     │
+├─────────────────────────────────────────────────────┤
+│  THE SOLUTION (Your approach)                      │
+│                                                     │
+│  [What you did - the plan in action]               │
+│  [How you approached their specific situation]     │
+│                                                     │
+├─────────────────────────────────────────────────────┤
+│  THE RESULTS (Success)                             │
+│                                                     │
+│  [Specific metrics and outcomes]                   │
+│  [Before/after comparison]                         │
+│  [Client quote/testimonial]                        │
+│                                                     │
+├─────────────────────────────────────────────────────┤
+│  CTA                                               │
+│                                                     │
+│  Want results like this?  [Get Started]            │
+│                                                     │
+└─────────────────────────────────────────────────────┘
+```
+
+### Pricing Page
+
+```
+┌─────────────────────────────────────────────────────┐
+│  PRICING HEADLINE                                  │
+│                                                     │
+│  "Choose the right plan for your [need]"           │
+│                                                     │
+├─────────────────────────────────────────────────────┤
+│  PLAN COMPARISON                                   │
+│                                                     │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐         │
+│  │  Basic   │  │  Pro     │  │ Premium  │         │
+│  │  $X/mo   │  │  $X/mo   │  │  $X/mo   │         │
+│  │          │  │  ★ MOST  │  │          │         │
+│  │  ✓ A     │  │  POPULAR │  │  ✓ A     │         │
+│  │  ✓ B     │  │          │  │  ✓ B     │         │
+│  │          │  │  ✓ A     │  │  ✓ C     │         │
+│  │  [CTA]   │  │  ✓ B     │  │  ✓ D     │         │
+│  │          │  │  ✓ C     │  │  ✓ E     │         │
+│  │          │  │          │  │          │         │
+│  │          │  │  [CTA]   │  │  [CTA]   │         │
+│  └──────────┘  └──────────┘  └──────────┘         │
+│                                                     │
+├─────────────────────────────────────────────────────┤
+│  GUARANTEE                                         │
+│                                                     │
+│  [Risk reversal: money-back, satisfaction, etc.]   │
+│                                                     │
+├─────────────────────────────────────────────────────┤
+│  FAQ                                               │
+│                                                     │
+│  [Pricing-specific questions]                      │
+│                                                     │
+├─────────────────────────────────────────────────────┤
+│  TESTIMONIAL                                       │
+│                                                     │
+│  [Quote about value/ROI]                           │
+│                                                     │
+└─────────────────────────────────────────────────────┘
+```
+
+---
+
+## Interior Page Checklist
+
+For any interior page:
+
+- [ ] Clear page title explaining the content
+- [ ] Breadcrumbs (if deep in site structure)
+- [ ] Relevant CTAs (at least 2)
+- [ ] Internal links to related content
+- [ ] Consistent navigation
+- [ ] Mobile-optimized layout
+- [ ] Page-specific meta description

@@ -213,3 +213,10 @@ For deeper guidance on specific patterns, see [references/advanced-patterns.md](
 - Border radius systems
 - Text truncation
 - Responsive breakpoints
+
+## Additional Reference Files
+
+- [animation-microinteractions.md](references/animation-microinteractions.md): When to animate, easing functions, durations, loading states, performance
+- [accessibility-depth.md](references/accessibility-depth.md): WCAG 2.1 AA checklist, focus management, screen reader support
+- [data-visualization.md](references/data-visualization.md): Chart selection, color in charts, table design, dashboard layouts
+- [theming-dark-mode.md](references/theming-dark-mode.md): Dark palette creation, elevation in dark mode, implementation strategies

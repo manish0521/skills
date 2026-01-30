@@ -57,6 +57,16 @@ Two decision moments:
 
 ## Discovering Jobs - Methodology
 
+### Passive vs. Active Job Seeking
+
+**Passive seeking:** Customer is vaguely aware of a problem but not actively shopping. Easier to influence—they haven't set criteria or budget yet.
+
+**Active seeking:** Customer is actively comparing solutions. More competitive—they have criteria and may have seen competitors.
+
+**Key insight:** The best customers are often passive seekers whose jobs you've awakened through content and positioning.
+
+See [innovation-process.md](references/innovation-process.md) for detailed job hunting methodology.
+
 ### Signals Indicating an Undiscovered Job
 
 1. **Workarounds** - people tinker, hack, combine products
@@ -116,6 +126,13 @@ When job is well understood → **modularize** (specialize components)
 
 Rule: Integrate where performance is "not good enough" for the job. Modularize where it's "good enough."
 
+**Decision criteria for integration:**
+- Do you need to control the experience end-to-end?
+- Is performance on key dimensions "not good enough"?
+- Can partners deliver reliably to your standards?
+
+See [competitive-strategy.md](references/competitive-strategy.md) for strategic positioning.
+
 ## Building an Organization Around Jobs
 
 ### Jobs-Oriented Metrics
@@ -138,6 +155,12 @@ See: [references/diagnostics.md](references/diagnostics.md) for diagnostic check
 ## Examples and Case Studies
 
 See: [references/case-studies.md](references/case-studies.md) for detailed analyses (SNHU, American Girl, Intuit).
+
+## Additional Reference Files
+
+- [innovation-process.md](references/innovation-process.md): Job hunting methodology, job atlas, prototype testing, job statements
+- [competitive-strategy.md](references/competitive-strategy.md): Non-obvious competition, jobs-based positioning, pricing strategy
+- [organizational-change.md](references/organizational-change.md): Overcoming objections, feature-factory trap, executive buy-in, change management
 
 ## Further Reading
 
