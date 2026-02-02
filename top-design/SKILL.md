@@ -12,7 +12,7 @@ description: >
 license: MIT
 metadata:
   author: wondelai
-  version: "1.1.0"
+  version: "1.2.0"
 ---
 
 # Top-Design: Award-Winning Digital Experiences
@@ -448,6 +448,20 @@ GENERIC TELLS (Instant 10/10 Disqualification)
 ✗ Generic 404 pages
 ✗ Cookie-cutter layouts
 ✗ Font Awesome icons (unmodified)
+
+AI SLOP (Immediate Rejection)
+✗ ANY emoji in professional interfaces
+✗ Purple-to-blue or purple-to-pink gradients (the "AI gradient")
+✗ Generic "futuristic" glassmorphism everywhere
+✗ Overly smooth, soulless illustrations (the "corporate Memphis" successor)
+✗ Teal + coral + purple color schemes (every AI startup ever)
+✗ "Clean and modern" that means "generic and forgettable"
+✗ Gradients on everything because "it looks techy"
+✗ Neon accents on dark backgrounds (cyberpunk cliché)
+✗ Abstract blob shapes as decoration
+✗ Particle effects without purpose
+✗ "Magical" sparkle animations
+✗ The same Figma community hero section everyone uses
 ```
 
 ---
