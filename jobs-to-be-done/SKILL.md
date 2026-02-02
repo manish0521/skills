@@ -4,7 +4,7 @@ description: 'Strategic framework for discovering and designing product innovati
 license: MIT
 metadata:
   author: wondelai
-  version: "1.0"
+  version: "1.0.1"
 ---
 
 # Jobs to Be Done Framework

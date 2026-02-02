@@ -4,7 +4,7 @@ description: 'Design native iOS apps following Apple''s Human Interface Guidelin
 license: MIT
 metadata:
   author: wondelai
-  version: "1.0"
+  version: "1.0.1"
 ---
 
 # iOS Human Interface Guidelines Design Skill

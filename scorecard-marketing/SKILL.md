@@ -4,7 +4,7 @@ description: 'Lead generation system using quiz/assessment funnels (Scorecard Ma
 license: MIT
 metadata:
   author: wondelai
-  version: "1.0"
+  version: "1.0.1"
 ---
 
 # Scorecard Marketing Skill

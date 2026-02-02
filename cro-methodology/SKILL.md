@@ -4,7 +4,7 @@ description: 'Customer-centric conversion rate optimization methodology based on
 license: MIT
 metadata:
   author: wondelai
-  version: "1.0"
+  version: "1.0.1"
 ---
 
 # CRO Methodology

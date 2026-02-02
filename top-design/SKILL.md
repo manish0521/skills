@@ -12,7 +12,7 @@ description: >
 license: MIT
 metadata:
   author: wondelai
-  version: "1.0"
+  version: "1.1.0"
 ---
 
 # Top-Design: Award-Winning Digital Experiences

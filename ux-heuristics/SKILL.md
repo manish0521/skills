@@ -4,7 +4,7 @@ description: 'Usability heuristics and principles based on Steve Krug''s "Don''t
 license: MIT
 metadata:
   author: wondelai
-  version: "1.0"
+  version: "1.0.1"
 ---
 
 # UX Heuristics Framework

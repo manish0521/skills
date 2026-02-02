@@ -4,7 +4,7 @@ description: 'StoryBrand messaging framework based on Donald Miller''s "Building
 license: MIT
 metadata:
   author: wondelai
-  version: "1.0"
+  version: "1.0.1"
 ---
 
 # StoryBrand Messaging Framework

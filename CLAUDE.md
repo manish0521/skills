@@ -30,7 +30,7 @@ description: Brief description used for skill matching/discovery. Include trigge
 license: MIT
 metadata:
   author: wondelai
-  version: "1.0"
+  version: "1.0.0"
 ---
 
 # Skill Title
@@ -70,6 +70,24 @@ The YAML frontmatter `description` field is critical for skill discovery - it sh
 ```bash
 npx skills add wondelai/skills              # All skills
 npx skills add wondelai/skills/{skill-name} # Individual skill
+```
+
+## Versioning Policy
+
+Skills use semantic versioning (`MAJOR.MINOR.PATCH`):
+- **MAJOR**: Breaking changes or complete rewrites
+- **MINOR**: New features, significant enhancements, new sections
+- **PATCH**: Bug fixes, typo corrections, small clarifications
+
+**Auto-increment rule:** When modifying a skill's `SKILL.md` or its `references/` files, always bump the version in the frontmatter:
+- Content addition/enhancement → bump MINOR (e.g., `1.0.0` → `1.1.0`)
+- Small fix/typo → bump PATCH (e.g., `1.1.0` → `1.1.1`)
+
+Example:
+```yaml
+metadata:
+  author: wondelai
+  version: "1.1.0"
 ```
 
 ## Commit Policy

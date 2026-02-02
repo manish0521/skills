@@ -4,7 +4,7 @@ description: Practical UI design system based on Refactoring UI (Wathan & Schoge
 license: MIT
 metadata:
   author: wondelai
-  version: "1.0"
+  version: "1.0.1"
 ---
 
 # Refactoring UI Design System

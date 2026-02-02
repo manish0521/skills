@@ -4,7 +4,7 @@ description: 'Hook Model framework for building habit-forming products based on 
 license: MIT
 metadata:
   author: wondelai
-  version: "1.0"
+  version: "1.0.1"
 ---
 
 # Hook Model Framework
