@@ -50,6 +50,10 @@ npx skills add wondelai/skills/design-everyday-things
 npx skills add wondelai/skills/predictable-revenue
 npx skills add wondelai/skills/made-to-stick
 npx skills add wondelai/skills/drive-motivation
+npx skills add wondelai/skills/hundred-million-offers
+npx skills add wondelai/skills/obviously-awesome
+npx skills add wondelai/skills/contagious
+npx skills add wondelai/skills/one-page-marketing
 ```
 
 ## Available Skills
@@ -77,6 +81,10 @@ npx skills add wondelai/skills/drive-motivation
 | predictable-revenue | Outbound sales process and Cold Calling 2.0 methodology | [Aaron Ross](https://x.com/motoceo)'s [*"Predictable Revenue"*](https://www.amazon.com/Predictable-Revenue-Business-Practices-Salesforce-com/dp/0984380213?tag=wondelai00-20) |
 | made-to-stick | SUCCESs framework for creating memorable messaging | [Chip Heath](https://x.com/chipheath) & Dan Heath's [*"Made to Stick"*](https://www.amazon.com/Made-Stick-Ideas-Survive-Others/dp/1400064287?tag=wondelai00-20) |
 | drive-motivation | Intrinsic motivation science: Autonomy, Mastery, Purpose | [Daniel Pink](https://x.com/DanielPink)'s [*"Drive"*](https://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805?tag=wondelai00-20) |
+| hundred-million-offers | Grand Slam Offer creation: Value Equation, pricing, bonuses, guarantees, scarcity | [Alex Hormozi](https://x.com/AlexHormozi)'s [*"$100M Offers"*](https://www.amazon.com/100M-Offers-People-Cant-Refuse/dp/1737475731?tag=wondelai00-20) |
+| obviously-awesome | Product positioning: competitive alternatives, unique value, target customers, market category | [April Dunford](https://x.com/aprildunford)'s [*"Obviously Awesome"*](https://www.amazon.com/Obviously-Awesome-Product-Positioning-Customers/dp/1999023005?tag=wondelai00-20) |
+| contagious | Word-of-mouth and virality using the STEPPS framework | [Jonah Berger](https://x.com/j1berger)'s [*"Contagious"*](https://www.amazon.com/Contagious-Things-Catch-Jonah-Berger/dp/1451686587?tag=wondelai00-20) |
+| one-page-marketing | End-to-end marketing plan: 9-square grid from prospect to raving fan | [Allan Dib](https://x.com/successwise)'s [*"The 1-Page Marketing Plan"*](https://www.amazon.com/1-Page-Marketing-Plan-Customers-Money/dp/1989025013?tag=wondelai00-20) |
 
 ---
 
@@ -567,6 +575,106 @@ Intrinsic motivation science: Autonomy, Mastery, Purpose (AMP). Design products,
 
 ---
 
+### hundred-million-offers
+
+Grand Slam Offer creation framework for building offers so good people feel stupid saying no. Covers the Value Equation, value-based pricing, bonus stacking, guarantees, scarcity, urgency, and the MAGIC naming formula.
+
+**About the author:** [Alex Hormozi](https://x.com/AlexHormozi) is an entrepreneur, investor, and author who has built and scaled multiple businesses generating over $100M in revenue. He is the founder of Acquisition.com, a portfolio of companies that generates over $200M per year. Hormozi's companies span SaaS, brick-and-mortar, e-commerce, and service businesses. [*"$100M Offers: How To Make Offers So Good People Feel Stupid Saying No"*](https://www.amazon.com/100M-Offers-People-Cant-Refuse/dp/1737475731?tag=wondelai00-20) became a Wall Street Journal bestseller and has helped thousands of entrepreneurs restructure their pricing and packaging. His follow-up, *$100M Leads*, covers customer acquisition.
+
+**Use when you need to:**
+- Create an irresistible offer using the Value Equation
+- Design Grand Slam Offers with bonuses, guarantees, and scarcity
+- Find your starving crowd and ideal market
+- Implement value-based pricing with a 10:1 value-to-price ratio
+- Stack bonuses that multiply perceived value
+- Design risk-reversing guarantees
+- Apply ethical scarcity and urgency
+- Name your offer using the MAGIC formula
+
+**Example prompts:**
+- *"Redesign our SaaS pricing using the Value Equation. Use hundred-million-offers skill."*
+- *"Create a Grand Slam Offer for our coaching program with bonuses and guarantees. Use hundred-million-offers skill."*
+- *"What bonuses should we stack to increase perceived value of our $997 course? Use hundred-million-offers skill."*
+- *"Name our new offer using the MAGIC formula. Use hundred-million-offers skill."*
+- *"Audit our current offer—where is it losing value on the Value Equation? Use hundred-million-offers skill."*
+
+---
+
+### obviously-awesome
+
+Product positioning framework for defining how your product wins in customers' minds. Covers competitive alternatives, unique attributes, value mapping, target customers, and market category selection.
+
+**About the author:** [April Dunford](https://x.com/aprildunford) is the world's leading authority on product positioning. She is a consultant, speaker, and author who has launched 16 products across her career at companies including IBM, Nortel, and Siebel Systems. Dunford has advised hundreds of companies—from startups to Fortune 500—on positioning strategy. [*"Obviously Awesome: How to Nail Product Positioning so Customers Get It, Buy It, Love It"*](https://www.amazon.com/Obviously-Awesome-Product-Positioning-Customers/dp/1999023005?tag=wondelai00-20) is the definitive guide to product positioning, used by product teams, marketers, and founders worldwide. Her follow-up, *Sales Pitch*, extends the positioning framework into sales conversations.
+
+**Use when you need to:**
+- Define what makes your product different from competitive alternatives
+- Identify your unique attributes and map them to customer value
+- Find your best-fit target customers
+- Choose the right market category (existing, subcategory, or new)
+- Create a positioning canvas for team alignment
+- Run a team positioning workshop
+- Diagnose why your product messaging isn't resonating
+
+**Example prompts:**
+- *"Help us identify the real competitive alternatives for our project management tool. Use obviously-awesome skill."*
+- *"Map our unique attributes to customer value themes using the 'So what?' test. Use obviously-awesome skill."*
+- *"Should we position in an existing category, create a subcategory, or define a new one? Use obviously-awesome skill."*
+- *"Create a positioning canvas for our B2B analytics product. Use obviously-awesome skill."*
+- *"Facilitate a positioning exercise for our team. Use obviously-awesome skill."*
+
+---
+
+### contagious
+
+Word-of-mouth and virality framework using the STEPPS model (Social Currency, Triggers, Emotion, Public, Practical Value, Stories). Engineer sharing into your products, content, and campaigns.
+
+**About the author:** [Jonah Berger](https://x.com/j1berger) is a marketing professor at the Wharton School at the University of Pennsylvania. His research on social influence, word of mouth, and viral marketing has been published in top academic journals and popular outlets. [*"Contagious: Why Things Catch On"*](https://www.amazon.com/Contagious-Things-Catch-Jonah-Berger/dp/1451686587?tag=wondelai00-20) became a New York Times and Wall Street Journal bestseller and has been translated into over 35 languages. Berger has consulted for companies including Google, Apple, Nike, and the Gates Foundation on making products and ideas spread.
+
+**Use when you need to:**
+- Engineer word-of-mouth for product launches
+- Design features that people naturally share
+- Create content that goes viral
+- Build social currency into your product
+- Design environmental triggers that keep your brand top-of-mind
+- Craft high-arousal emotional content
+- Make your product publicly visible and imitable
+
+**Example prompts:**
+- *"Audit our product launch plan using the STEPPS framework. Which principles are we missing? Use contagious skill."*
+- *"How can we build social currency into our fitness app so users brag about it? Use contagious skill."*
+- *"Design environmental triggers that link our productivity tool to daily habits. Use contagious skill."*
+- *"Is our content high-arousal or low-arousal? Audit for shareability. Use contagious skill."*
+- *"Create a Trojan Horse story for our brand that people can't retell without mentioning us. Use contagious skill."*
+
+---
+
+### one-page-marketing
+
+Complete end-to-end marketing plan on a single page using Allan Dib's 9-square grid. Covers the full customer journey from prospect to raving fan across three phases: Before (target market, message, media), During (capture, nurture, convert), and After (experience, lifetime value, referrals).
+
+**About the author:** [Allan Dib](https://x.com/successwise) is a serial entrepreneur, rebellious marketer, and technology expert who has started, grown, and successfully exited multiple businesses in various industries. He is the founder of Successwise, a business coaching and education company. [*"The 1-Page Marketing Plan: Get New Customers, Make More Money, And Stand Out From The Crowd"*](https://www.amazon.com/1-Page-Marketing-Plan-Customers-Money/dp/1989025013?tag=wondelai00-20) is an international bestseller that has been translated into numerous languages and has helped hundreds of thousands of business owners create a simple, actionable marketing plan. His follow-up, *Lean Marketing*, applies lean principles to marketing execution.
+
+**Use when you need to:**
+- Create a complete marketing plan from scratch
+- Define your target market using the PVP Index
+- Craft a compelling USP and messaging
+- Choose the right advertising media and channels
+- Design lead capture systems and magnets
+- Build lead nurture email sequences
+- Optimize sales conversion
+- Create world-class customer experiences
+- Increase customer lifetime value
+- Build referral and advocacy systems
+
+**Example prompts:**
+- *"Create a 1-page marketing plan for our B2B SaaS product. Use one-page-marketing skill."*
+- *"Help me define my target market using the PVP Index. Use one-page-marketing skill."*
+- *"Design a lead magnet and capture system for our consulting firm. Use one-page-marketing skill."*
+- *"What's our ascension model? Map the customer journey from first touch to premium tier. Use one-page-marketing skill."*
+- *"Build a referral system that generates word-of-mouth consistently. Use one-page-marketing skill."*
+
+---
+
 ## Copyright & Disclaimer
 
 The methodologies and frameworks referenced in these skills are the intellectual property of their respective authors and publishers. All copyrights belong to:
@@ -593,6 +701,10 @@ The methodologies and frameworks referenced in these skills are the intellectual
 - **Predictable Revenue**: Aaron Ross, Marylou Tyler
 - **Made to Stick**: Chip Heath, Dan Heath
 - **Drive**: Daniel H. Pink
+- **$100M Offers**: Alex Hormozi
+- **Obviously Awesome**: April Dunford
+- **Contagious**: Jonah Berger
+- **The 1-Page Marketing Plan**: Allan Dib
 
 These skills were created without directly copying or reproducing content from the original books or materials. They are based on:
 - Publicly available information about the methodologies
