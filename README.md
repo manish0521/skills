@@ -11,9 +11,13 @@ Agent skills for Claude Code and agentskills.io-compatible agents.
 /plugin marketplace add wondelai/skills
 
 # Install plugin collections
-/plugin install product-strategy@wondelai-skills    # Jobs to Be Done
-/plugin install ux-design@wondelai-skills           # Refactoring UI, iOS HIG, UX Heuristics, Hooked, Web Typography, Top Design
+/plugin install product-strategy@wondelai-skills    # Jobs to Be Done, Negotiation
+/plugin install ux-design@wondelai-skills           # Refactoring UI, iOS HIG, UX Heuristics, Hooked, Web Typography, Top Design, Design of Everyday Things
 /plugin install marketing-cro@wondelai-skills       # CRO Methodology, StoryBrand, Scorecard Marketing
+/plugin install sales-influence@wondelai-skills     # Influence Psychology, Predictable Revenue, Made to Stick
+/plugin install product-innovation@wondelai-skills  # Lean Startup, Design Sprint, Design of Everyday Things
+/plugin install strategy-growth@wondelai-skills     # Crossing the Chasm, Blue Ocean Strategy, Traction/EOS
+/plugin install team-motivation@wondelai-skills     # Drive (Autonomy, Mastery, Purpose)
 ```
 
 ### Via skills.sh
@@ -36,6 +40,16 @@ npx skills add wondelai/skills/ux-heuristics
 npx skills add wondelai/skills/web-typography
 npx skills add wondelai/skills/top-design
 npx skills add wondelai/skills/negotiation
+npx skills add wondelai/skills/influence-psychology
+npx skills add wondelai/skills/lean-startup
+npx skills add wondelai/skills/design-sprint
+npx skills add wondelai/skills/crossing-the-chasm
+npx skills add wondelai/skills/blue-ocean-strategy
+npx skills add wondelai/skills/traction-eos
+npx skills add wondelai/skills/design-everyday-things
+npx skills add wondelai/skills/predictable-revenue
+npx skills add wondelai/skills/made-to-stick
+npx skills add wondelai/skills/drive-motivation
 ```
 
 ## Available Skills
@@ -53,6 +67,16 @@ npx skills add wondelai/skills/negotiation
 | web-typography | Web typography principles and implementation | [Jason Santa Maria](https://x.com/jasonsantamaria)'s [*"On Web Typography"*](https://www.amazon.com/Web-Typography-Jason-Santa-Maria/dp/1937557065?tag=wondelai00-20) |
 | top-design | Award-winning 10/10 web design matching elite agencies | Techniques from Locomotive, Studio Freight, AREA 17, Awwwards winners |
 | negotiation | Tactical negotiation framework for high-stakes conversations | [Chris Voss](https://x.com/VossNegotiation)'s [*"Never Split the Difference"*](https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805?tag=wondelai00-20) |
+| influence-psychology | Persuasion science and ethical influence principles | [Robert Cialdini](https://x.com/RobertCialdini)'s [*"Influence: The Psychology of Persuasion"*](https://www.amazon.com/Influence-Psychology-Persuasion-Robert-Cialdini/dp/006124189X?tag=wondelai00-20) |
+| lean-startup | Build-Measure-Learn methodology for startups and new products | [Eric Ries](https://x.com/ericries)'s [*"The Lean Startup"*](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898?tag=wondelai00-20) |
+| design-sprint | 5-day process for validating ideas through prototyping and testing | [Jake Knapp](https://x.com/jakek)'s [*"Sprint"*](https://www.amazon.com/Sprint-Solve-Problems-Test-Ideas/dp/150112174X?tag=wondelai00-20) |
+| crossing-the-chasm | Technology adoption lifecycle and go-to-market for tech products | [Geoffrey Moore](https://x.com/geoffreyamoore)'s [*"Crossing the Chasm"*](https://www.amazon.com/Crossing-Chasm-3rd-Disruptive-Mainstream/dp/0062292986?tag=wondelai00-20) |
+| blue-ocean-strategy | Create uncontested market space with value innovation | W. Chan Kim & Renée Mauborgne's [*"Blue Ocean Strategy"*](https://www.amazon.com/Blue-Ocean-Strategy-Expanded-Uncontested/dp/1625274491?tag=wondelai00-20) |
+| traction-eos | Entrepreneurial Operating System for running a business | [Gino Wickman](https://x.com/ginowickman)'s [*"Traction"*](https://www.amazon.com/Traction-Get-Grip-Your-Business/dp/1936661837?tag=wondelai00-20) |
+| design-everyday-things | Foundational design principles: affordances, signifiers, feedback | [Don Norman](https://x.com/jabornik)'s [*"The Design of Everyday Things"*](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654?tag=wondelai00-20) |
+| predictable-revenue | Outbound sales process and Cold Calling 2.0 methodology | [Aaron Ross](https://x.com/motoceo)'s [*"Predictable Revenue"*](https://www.amazon.com/Predictable-Revenue-Business-Practices-Salesforce-com/dp/0984380213?tag=wondelai00-20) |
+| made-to-stick | SUCCESs framework for creating memorable messaging | [Chip Heath](https://x.com/chipheath) & Dan Heath's [*"Made to Stick"*](https://www.amazon.com/Made-Stick-Ideas-Survive-Others/dp/1400064287?tag=wondelai00-20) |
+| drive-motivation | Intrinsic motivation science: Autonomy, Mastery, Purpose | [Daniel Pink](https://x.com/DanielPink)'s [*"Drive"*](https://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805?tag=wondelai00-20) |
 
 ---
 
@@ -321,6 +345,228 @@ Tactical empathy-based negotiation framework from FBI hostage negotiator Chris V
 
 ---
 
+### influence-psychology
+
+Persuasion science framework applying Robert Cialdini's seven universal principles of influence (Reciprocity, Commitment & Consistency, Social Proof, Authority, Liking, Scarcity, Unity) to product design, marketing, and communication.
+
+**About the author:** [Robert B. Cialdini, PhD](https://x.com/RobertCialdini) is Regents' Professor Emeritus of Psychology and Marketing at Arizona State University. His research on the psychology of influence has been published extensively and cited across disciplines. [*"Influence: The Psychology of Persuasion"*](https://www.amazon.com/Influence-Psychology-Persuasion-Robert-Cialdini/dp/006124189X?tag=wondelai00-20) has sold over 5 million copies worldwide and is considered the foundational text on persuasion science. Cialdini has consulted for Fortune 500 companies, government agencies, and nonprofits on ethical influence strategies.
+
+**Use when you need to:**
+- Design features that leverage social proof
+- Write persuasive copy and messaging
+- Analyze why users take (or don't take) actions
+- Create onboarding flows using commitment/consistency
+- Design referral programs using reciprocity
+- Audit for ethical persuasion
+- Apply influence psychology to product, marketing, or sales
+
+**Example prompts:**
+- *"Audit this landing page for Cialdini's influence principles. Which are missing? Use influence-psychology skill."*
+- *"Design a referral program using reciprocity and social proof. Use influence-psychology skill."*
+- *"How can we use commitment/consistency in our onboarding flow? Use influence-psychology skill."*
+- *"Is this scarcity tactic ethical? Review against the ethical checklist. Use influence-psychology skill."*
+
+---
+
+### lean-startup
+
+Build-Measure-Learn methodology for startups and new products. Test assumptions with MVPs, measure with actionable metrics, and decide when to pivot or persevere.
+
+**About the author:** [Eric Ries](https://x.com/ericries) is an entrepreneur and author who co-founded IMVU, where he pioneered continuous deployment and customer development practices that became the foundation of Lean Startup. [*"The Lean Startup"*](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898?tag=wondelai00-20) has been translated into over 30 languages and has influenced startup culture worldwide. Ries is also the creator of the Long-Term Stock Exchange (LTSE).
+
+**Use when you need to:**
+- Design MVP scope for new product ideas
+- Define validated learning experiments
+- Create innovation accounting frameworks
+- Decide when to pivot vs. persevere
+- Set up actionable metrics vs. vanity metrics
+- Reduce product development waste
+- Apply scientific method to entrepreneurship
+
+**Example prompts:**
+- *"What's the smallest MVP we can build to test our riskiest assumption? Use lean-startup skill."*
+- *"Are these vanity metrics or actionable metrics? Evaluate our dashboard. Use lean-startup skill."*
+- *"Should we pivot or persevere? Here's our data from the last 3 months. Use lean-startup skill."*
+- *"Design a smoke test to validate demand before we build anything. Use lean-startup skill."*
+
+---
+
+### design-sprint
+
+Google Ventures' 5-day process for answering critical business questions through design, prototyping, and testing with real users.
+
+**About the author:** [Jake Knapp](https://x.com/jakek) created the Design Sprint process while at Google, where he ran sprints on products like Gmail, Chrome, and Google X. As a design partner at Google Ventures (GV), he refined the process by running over 100 sprints with startups. [*"Sprint"*](https://www.amazon.com/Sprint-Solve-Problems-Test-Ideas/dp/150112174X?tag=wondelai00-20) is now used by teams at Google, Slack, Airbnb, LEGO, and thousands of companies worldwide.
+
+**Use when you need to:**
+- Validate product ideas in 5 days instead of months
+- Rapidly prototype and test solutions
+- Align teams on product direction
+- De-risk product development before building
+- Make fast strategic decisions through structured process
+
+**Example prompts:**
+- *"Plan a 5-day design sprint for our new checkout flow. Use design-sprint skill."*
+- *"Create Monday mapping exercises for our sprint. Use design-sprint skill."*
+- *"Write a Friday interview script for testing our prototype. Use design-sprint skill."*
+- *"How do I run a design sprint with a remote team? Use design-sprint skill."*
+
+---
+
+### crossing-the-chasm
+
+Strategic framework for marketing and selling disruptive technology products, focusing on the critical transition from early adopters to mainstream customers.
+
+**About the author:** [Geoffrey A. Moore](https://x.com/geoffreyamoore) is a consultant, venture partner, and author focused on disruptive innovation and market development. [*"Crossing the Chasm"*](https://www.amazon.com/Crossing-Chasm-3rd-Disruptive-Mainstream/dp/0062292986?tag=wondelai00-20) has sold over 1 million copies and is required reading at many business schools and tech companies. Moore serves on the boards of several technology companies and advises Fortune 500 firms on technology adoption.
+
+**Use when you need to:**
+- Identify where your product is in the adoption lifecycle
+- Choose a beachhead market segment
+- Build a "whole product" solution for mainstream buyers
+- Position against incumbent competition
+- Transition from early adopters to mainstream market
+- Develop B2B tech marketing strategy
+
+**Example prompts:**
+- *"Where is our product in the Technology Adoption Life Cycle? Use crossing-the-chasm skill."*
+- *"Help us choose a beachhead market segment. Here are our current customers. Use crossing-the-chasm skill."*
+- *"What's missing from our whole product? Use crossing-the-chasm skill."*
+- *"Rewrite our positioning for pragmatist buyers. Use crossing-the-chasm skill."*
+
+---
+
+### blue-ocean-strategy
+
+Create uncontested market space using value innovation. Use the Strategy Canvas, Four Actions Framework (ERRC), and Six Paths to find blue oceans where competition is irrelevant.
+
+**About the authors:** **W. Chan Kim** and **Renée Mauborgne** are professors of strategy at INSEAD and co-directors of the INSEAD Blue Ocean Strategy Institute. [*"Blue Ocean Strategy"*](https://www.amazon.com/Blue-Ocean-Strategy-Expanded-Uncontested/dp/1625274491?tag=wondelai00-20) has sold over 4 million copies, been translated into 46 languages, and is one of the best-selling business books of all time.
+
+**Use when you need to:**
+- Analyze competitive landscape (red vs. blue oceans)
+- Create strategy canvas mapping competition
+- Use Four Actions Framework (Eliminate-Reduce-Raise-Create)
+- Design value innovation propositions
+- Identify non-customers and convert them
+- Break the value-cost trade-off
+
+**Example prompts:**
+- *"Create a strategy canvas for our market. Here are the competing factors. Use blue-ocean-strategy skill."*
+- *"Apply the ERRC grid to our product. What should we eliminate, reduce, raise, create? Use blue-ocean-strategy skill."*
+- *"Who are the three tiers of non-customers for our product? Use blue-ocean-strategy skill."*
+- *"Use the Six Paths Framework to find blue ocean opportunities in our industry. Use blue-ocean-strategy skill."*
+
+---
+
+### traction-eos
+
+Complete Entrepreneurial Operating System (EOS) for running a business. Covers Vision/Traction Organizer, quarterly Rocks, Level 10 Meetings, Scorecard, Accountability Chart, and IDS process.
+
+**About the author:** [Gino Wickman](https://x.com/ginowickman) is the creator of EOS and founder of EOS Worldwide. [*"Traction"*](https://www.amazon.com/Traction-Get-Grip-Your-Business/dp/1936661837?tag=wondelai00-20) has sold over 2 million copies and EOS is used by over 250,000 companies worldwide. His work focuses on the practical tools needed to run an entrepreneurial company.
+
+**Use when you need to:**
+- Implement a complete business operating system
+- Create a Vision/Traction Organizer (V/TO)
+- Set quarterly rocks (priorities)
+- Run Level 10 meetings
+- Build accountability charts
+- Solve issues using IDS (Identify-Discuss-Solve)
+
+**Example prompts:**
+- *"Help us create a V/TO for our startup. Use traction-eos skill."*
+- *"Write 5 SMART rocks for Q2 based on our 1-year plan. Use traction-eos skill."*
+- *"Create a Level 10 meeting agenda and facilitation guide. Use traction-eos skill."*
+- *"Run the People Analyzer on this role—right person, right seat? Use traction-eos skill."*
+
+---
+
+### design-everyday-things
+
+Foundational design principles: affordances, signifiers, mappings, constraints, feedback, and conceptual models. The "bible of UX" for creating intuitive, discoverable products.
+
+**About the author:** [Don Norman, PhD](https://x.com/jabornik) is co-founder of the Nielsen Norman Group and coined the term "user experience" while at Apple. [*"The Design of Everyday Things"*](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654?tag=wondelai00-20) (originally 1988, revised 2013) is considered the most influential design book ever written and is required reading in virtually every design program worldwide.
+
+**Use when you need to:**
+- Design affordances and signifiers into interfaces
+- Analyze why products are confusing (conceptual model mismatch)
+- Apply constraints to prevent errors
+- Design clear feedback mechanisms
+- Bridge gulfs of execution and evaluation
+- Understand why users make errors and design fault-tolerant systems
+
+**Example prompts:**
+- *"Audit this form for missing affordances and signifiers. Use design-everyday-things skill."*
+- *"Why do users keep making this error? Analyze using Norman's error types. Use design-everyday-things skill."*
+- *"Walk through the seven stages of action for this checkout flow. Use design-everyday-things skill."*
+- *"What constraints can we add to prevent this mistake? Use design-everyday-things skill."*
+
+---
+
+### predictable-revenue
+
+Outbound sales process and Cold Calling 2.0 methodology. Build a scalable sales machine with role specialization (SDR/AE/CSM) and predictable pipeline generation.
+
+**About the author:** [Aaron Ross](https://x.com/motoceo) built the outbound sales process at Salesforce.com that added $100M+ in recurring revenue. [*"Predictable Revenue"*](https://www.amazon.com/Predictable-Revenue-Business-Practices-Salesforce-com/dp/0984380213?tag=wondelai00-20) is known as "The Bible of Outbound Sales" and has influenced an entire generation of SaaS sales organizations.
+
+**Use when you need to:**
+- Build a scalable outbound sales process
+- Implement Cold Calling 2.0 email sequences
+- Structure sales team roles (SDR/AE/CSM)
+- Design lead qualification frameworks
+- Scale B2B SaaS sales predictably
+- Calculate pipeline math and capacity planning
+
+**Example prompts:**
+- *"Design a Cold Calling 2.0 email sequence for our B2B SaaS product. Use predictable-revenue skill."*
+- *"Calculate pipeline math: how many SDRs do we need to hit $2M ARR? Use predictable-revenue skill."*
+- *"Create an ANUM qualification framework for our sales team. Use predictable-revenue skill."*
+- *"Structure our sales team: when should we hire SDRs vs. AEs? Use predictable-revenue skill."*
+
+---
+
+### made-to-stick
+
+SUCCESs framework for creating memorable, impactful messaging. Make ideas stick using Simple, Unexpected, Concrete, Credible, Emotional, Stories principles.
+
+**About the authors:** [Chip Heath](https://x.com/chipheath) is a professor at Stanford Graduate School of Business, and **Dan Heath** is a senior fellow at Duke University's CASE center. [*"Made to Stick"*](https://www.amazon.com/Made-Stick-Ideas-Survive-Others/dp/1400064287?tag=wondelai00-20) spent over 2 years on the New York Times bestseller list. The SUCCESs framework is used by educators, marketers, nonprofits, and product teams worldwide.
+
+**Use when you need to:**
+- Make product messaging more memorable
+- Write sticky taglines and value propositions
+- Create compelling product demos and presentations
+- Design memorable onboarding experiences
+- Craft internal communications that stick
+- Diagnose why messaging isn't resonating
+
+**Example prompts:**
+- *"Score this landing page copy on the SUCCESs framework. Use made-to-stick skill."*
+- *"Rewrite this value proposition to be stickier. Use made-to-stick skill."*
+- *"Our product demo is forgettable. Make it surprising and concrete. Use made-to-stick skill."*
+- *"Create a Commander's Intent for our product's core message. Use made-to-stick skill."*
+
+---
+
+### drive-motivation
+
+Intrinsic motivation science: Autonomy, Mastery, Purpose (AMP). Design products, features, and teams that tap into what truly motivates people — replacing carrot-and-stick with lasting engagement.
+
+**About the author:** [Daniel H. Pink](https://x.com/DanielPink) is the author of seven books including four New York Times bestsellers. [*"Drive"*](https://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805?tag=wondelai00-20) has been translated into over 40 languages and fundamentally changed how organizations think about motivation. Pink's TED Talk on the science of motivation has over 45 million views.
+
+**Use when you need to:**
+- Design features that leverage intrinsic motivation
+- Create progress systems that support mastery
+- Craft purpose-driven messaging and missions
+- Audit if product mechanics undermine autonomy
+- Design team structures and incentives with AMP principles
+- Understand why gamification fails
+- Replace carrot-and-stick approaches with intrinsic motivation
+
+**Example prompts:**
+- *"Audit our gamification system—is it intrinsic or extrinsic motivation? Use drive-motivation skill."*
+- *"How can we add mastery progression to our learning platform? Use drive-motivation skill."*
+- *"Our users disengage after the first week. Diagnose using AMP. Use drive-motivation skill."*
+- *"Design team incentives that support autonomy instead of controlling behavior. Use drive-motivation skill."*
+
+---
+
 ## Copyright & Disclaimer
 
 The methodologies and frameworks referenced in these skills are the intellectual property of their respective authors and publishers. All copyrights belong to:
@@ -337,6 +583,16 @@ The methodologies and frameworks referenced in these skills are the intellectual
 - **On Web Typography**: Jason Santa Maria
 - **Top Design**: Techniques inspired by Locomotive, Studio Freight, AREA 17, Active Theory, Hello Monday, Dogstudio, Tonik, Instrument, Resn
 - **Never Split the Difference**: Chris Voss, Tahl Raz
+- **Influence: The Psychology of Persuasion**: Robert B. Cialdini
+- **The Lean Startup**: Eric Ries
+- **Sprint**: Jake Knapp, John Zeratsky, Braden Kowitz
+- **Crossing the Chasm**: Geoffrey A. Moore
+- **Blue Ocean Strategy**: W. Chan Kim, Renée Mauborgne
+- **Traction**: Gino Wickman
+- **The Design of Everyday Things**: Don Norman
+- **Predictable Revenue**: Aaron Ross, Marylou Tyler
+- **Made to Stick**: Chip Heath, Dan Heath
+- **Drive**: Daniel H. Pink
 
 These skills were created without directly copying or reproducing content from the original books or materials. They are based on:
 - Publicly available information about the methodologies

@@ -5,8 +5,8 @@
     "email": "hello@wondel.ai"
   },
   "metadata": {
-    "description": "Agent skills for product strategy, UX design, marketing, and conversion optimization",
-    "version": "1.0.0"
+    "description": "Agent skills for product strategy, UX design, marketing, sales, motivation, and conversion optimization",
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -21,7 +21,7 @@
     },
     {
       "name": "ux-design",
-      "description": "UX and UI design skills including Refactoring UI, iOS HIG design, usability heuristics, habit-forming product design, web typography, and award-winning top-design",
+      "description": "UX and UI design skills including Refactoring UI, iOS HIG design, usability heuristics, habit-forming product design, web typography, award-winning top-design, and Don Norman's foundational design principles",
       "source": "./",
       "strict": false,
       "skills": [
@@ -30,7 +30,8 @@
         "./ux-heuristics",
         "./hooked-ux",
         "./web-typography",
-        "./top-design"
+        "./top-design",
+        "./design-everyday-things"
       ]
     },
     {
@@ -42,6 +43,48 @@
         "./cro-methodology",
         "./storybrand-messaging",
         "./scorecard-marketing"
+      ]
+    },
+    {
+      "name": "sales-influence",
+      "description": "Sales, persuasion, and messaging skills including Cialdini's influence psychology, Aaron Ross's outbound sales methodology, and Heath Brothers' sticky messaging framework",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./influence-psychology",
+        "./predictable-revenue",
+        "./made-to-stick"
+      ]
+    },
+    {
+      "name": "product-innovation",
+      "description": "Product innovation and validation frameworks including Lean Startup methodology, Google Ventures Design Sprint, and Don Norman's design principles",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./lean-startup",
+        "./design-sprint",
+        "./design-everyday-things"
+      ]
+    },
+    {
+      "name": "strategy-growth",
+      "description": "Business strategy and growth frameworks including Crossing the Chasm tech adoption, Blue Ocean Strategy value innovation, and EOS business operating system",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./crossing-the-chasm",
+        "./blue-ocean-strategy",
+        "./traction-eos"
+      ]
+    },
+    {
+      "name": "team-motivation",
+      "description": "Team motivation and intrinsic drive framework based on Daniel Pink's Autonomy, Mastery, Purpose (AMP) principles",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./drive-motivation"
       ]
     }
   ]
