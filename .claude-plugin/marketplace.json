@@ -1,13 +1,13 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "wondelai-skills",
-  "description": "25 agent skills for product strategy, UX design, marketing, sales, motivation, and conversion optimization — based on bestselling business books",
+  "description": "26 agent skills for product strategy, UX design, marketing, sales, motivation, and conversion optimization — based on bestselling business books",
   "owner": {
     "name": "Wondel.ai",
     "email": "hello@wondel.ai"
   },
   "metadata": {
-    "description": "25 agent skills for product strategy, UX design, marketing, sales, motivation, and conversion optimization — based on bestselling business books",
+    "description": "26 agent skills for product strategy, UX design, marketing, sales, motivation, and conversion optimization — based on bestselling business books",
     "version": "1.2.0"
   },
   "plugins": [
@@ -33,7 +33,7 @@
     },
     {
       "name": "ux-design",
-      "description": "UX and UI design skills including Refactoring UI, iOS HIG design, usability heuristics, habit-forming product design, web typography, award-winning top-design, and Don Norman's foundational design principles",
+      "description": "UX and UI design skills including Refactoring UI, iOS HIG design, usability heuristics, habit-forming product design, behavior design for retention, web typography, award-winning top-design, and Don Norman's foundational design principles",
       "version": "1.0.0",
       "author": {
         "name": "Wondel.ai",
@@ -43,7 +43,7 @@
       "repository": "https://github.com/wondelai/skills",
       "license": "MIT",
       "category": "design",
-      "keywords": ["ux", "ui", "design", "ios", "hig", "typography", "usability", "refactoring-ui", "hooked"],
+      "keywords": ["ux", "ui", "design", "ios", "hig", "typography", "usability", "refactoring-ui", "hooked", "retention", "behavior-design", "tiny-habits"],
       "source": "./",
       "strict": false,
       "skills": [
@@ -51,6 +51,7 @@
         "./ios-hig-design",
         "./ux-heuristics",
         "./hooked-ux",
+        "./improve-retention",
         "./web-typography",
         "./top-design",
         "./design-everyday-things"

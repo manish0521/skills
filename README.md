@@ -12,7 +12,7 @@ Agent skills for Claude Code and agentskills.io-compatible agents.
 
 # Install plugin collections
 /plugin install product-strategy@wondelai-skills    # Jobs to Be Done, Negotiation
-/plugin install ux-design@wondelai-skills           # Refactoring UI, iOS HIG, UX Heuristics, Hooked, Web Typography, Top Design, Design of Everyday Things
+/plugin install ux-design@wondelai-skills           # Refactoring UI, iOS HIG, UX Heuristics, Hooked, Improve Retention, Web Typography, Top Design, Design of Everyday Things
 /plugin install marketing-cro@wondelai-skills       # CRO Methodology, StoryBrand, Scorecard Marketing
 /plugin install sales-influence@wondelai-skills     # Influence Psychology, Predictable Revenue, Made to Stick
 /plugin install product-innovation@wondelai-skills  # Lean Startup, Design Sprint, Design of Everyday Things
@@ -36,6 +36,7 @@ npx skills add wondelai/skills/ios-hig-design
 npx skills add wondelai/skills/scorecard-marketing
 npx skills add wondelai/skills/storybrand-messaging
 npx skills add wondelai/skills/hooked-ux
+npx skills add wondelai/skills/improve-retention
 npx skills add wondelai/skills/ux-heuristics
 npx skills add wondelai/skills/web-typography
 npx skills add wondelai/skills/top-design
@@ -67,6 +68,7 @@ npx skills add wondelai/skills/one-page-marketing
 | scorecard-marketing | Quiz/assessment funnel lead generation | [Daniel Priestley](https://x.com/DanielPriestley)'s [*"Scorecard Marketing"*](https://www.amazon.com/Scorecard-Marketing-four-step-playbook-getting/dp/1781337195?tag=wondelai00-20) |
 | storybrand-messaging | Clear brand messaging using story structure | [Donald Miller](https://x.com/donlonemiller)'s [*"Building a StoryBrand"*](https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/0718033329?tag=wondelai00-20) |
 | hooked-ux | Habit-forming product design | [Nir Eyal](https://x.com/naboreeyal)'s [*"Hooked"*](https://www.amazon.com/Hooked-How-Build-Habit-Forming-Products/dp/1591847788?tag=wondelai00-20) |
+| improve-retention | Behavior design for user retention using B=MAP | [BJ Fogg](https://x.com/bjfogg)'s [*"Tiny Habits"*](https://www.amazon.com/Tiny-Habits-Small-Changes-Everything/dp/0358003326?tag=wondelai00-20) |
 | ux-heuristics | Usability evaluation and principles | [Steve Krug](https://x.com/skrug)'s [*"Don't Make Me Think"*](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515?tag=wondelai00-20) & [Jakob Nielsen](https://x.com/nngroup)'s [10 Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/) |
 | web-typography | Web typography principles and implementation | [Jason Santa Maria](https://x.com/jasonsantamaria)'s [*"On Web Typography"*](https://www.amazon.com/Web-Typography-Jason-Santa-Maria/dp/1937557065?tag=wondelai00-20) |
 | top-design | Award-winning 10/10 web design matching elite agencies | Techniques from Locomotive, Studio Freight, AREA 17, Awwwards winners |
@@ -253,6 +255,30 @@ Hook Model framework for building habit-forming products. The four-phase process
 - *"Audit our onboarding—does it complete the full Hook cycle? Use hooked-ux skill."*
 - *"How can we increase investment in our note-taking app to improve retention? Use hooked-ux skill."*
 - *"Are we in the Habit Zone? Analyze our usage frequency vs. perceived value. Use hooked-ux skill."*
+
+---
+
+### improve-retention
+
+Behavior design framework for diagnosing and fixing retention problems. Uses BJ Fogg's B=MAP model (Behavior = Motivation + Ability + Prompt) to systematically identify why users aren't completing key actions and design behaviors that stick.
+
+**About the author:** [BJ Fogg, PhD](https://x.com/bjfogg) is the founder of the Behavior Design Lab at Stanford University, where he has directed research on behavior change since 1998. He created the Fogg Behavior Model (B=MAP), which has become the foundational framework used by product designers, health researchers, and behavior change professionals worldwide. Fogg coined the term "behavior design" and has trained thousands of innovators in his methods, including the founders of Instagram. [*"Tiny Habits: The Small Changes That Change Everything"*](https://www.amazon.com/Tiny-Habits-Small-Changes-Everything/dp/0358003326?tag=wondelai00-20) distills two decades of research into a practical system for behavior change.
+
+**Use when you need to:**
+- Diagnose why users aren't completing key actions
+- Reduce friction using the Ability Chain (6 simplicity factors)
+- Design effective prompts and notifications
+- Create tiny behaviors that compound into retention
+- Audit motivation-ability mismatches
+- Design onboarding that builds lasting habits
+- Apply B=MAP to improve activation and retention metrics
+
+**Example prompts:**
+- *"Our Day-7 retention is 20%. Diagnose using B=MAP — is it a motivation, ability, or prompt problem? Use improve-retention skill."*
+- *"Run a friction audit on our onboarding flow using the Ability Chain. Use improve-retention skill."*
+- *"Design a Tiny Habits recipe for our core daily action. Use improve-retention skill."*
+- *"Our push notifications have low click-through rates. Are we prompting below the Action Line? Use improve-retention skill."*
+- *"Why do users sign up but never complete their first project? Use improve-retention skill."*
 
 ---
 
@@ -686,6 +712,7 @@ The methodologies and frameworks referenced in these skills are the intellectual
 - **Scorecard Marketing**: Daniel Priestley, Glen Carlson
 - **Building a StoryBrand**: Donald Miller
 - **Hooked**: Nir Eyal
+- **Tiny Habits**: BJ Fogg
 - **Don't Make Me Think**: Steve Krug
 - **10 Usability Heuristics**: Jakob Nielsen (Nielsen Norman Group)
 - **On Web Typography**: Jason Santa Maria
