@@ -88,6 +88,8 @@ npx skills add wondelai/skills/one-page-marketing
 | contagious | Word-of-mouth and virality using the STEPPS framework | [Jonah Berger](https://x.com/j1berger)'s [*"Contagious"*](https://www.amazon.com/Contagious-Things-Catch-Jonah-Berger/dp/1451686587?tag=wondelai00-20) |
 | one-page-marketing | End-to-end marketing plan: 9-square grid from prospect to raving fan | [Allan Dib](https://x.com/successwise)'s [*"The 1-Page Marketing Plan"*](https://www.amazon.com/1-Page-Marketing-Plan-Customers-Money/dp/1989025013?tag=wondelai00-20) |
 
+> **Looking for real-world scenarios?** See [EXAMPLES.md](EXAMPLES.md) for 49 copy-pasteable prompts organized by persona (founders, PMs, marketers, designers, sales, copywriters, solopreneurs).
+
 ---
 
 ## Skill Details
